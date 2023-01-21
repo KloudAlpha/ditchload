@@ -1,18 +1,23 @@
-pomfload - upload to pomf from the comfort of your command line
+ditchload - upload to fileditch from the comfort of your command line
 ----
-
+installation
+---
 ```
-usage: pomfload FILE [FILE [FILE...]]
+curl "https://raw.githubusercontent.com/KloudAlpha/ditchload/master/ditch" -o ditch
+sudo mv ditch /usr/bin/ditch && sudo chmod +x /usr/bin/ditch
+```
+usage: `ditch FILE [FILE [FILE...]]`
 
 what are you, stupid?
-```
+
 
 requirements
 ---
+```
 * POSIX-compatible shell
 * [curl](http://curl.haxx.se/)
 * [jq](http://stedolan.github.io/jq/)
-
+```
 license
 ---
 ```
